@@ -1,9 +1,10 @@
 {
   "expo": {
     "name": "FocusOnTube",
-    "slug": "FocusOnTube",
+    "slug": "focusontube",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": "focusontube",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -16,6 +17,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.faiziop05.focusontube",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -24,6 +26,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "65f8a78f-c357-49f7-b398-5afcce6eeb30"
+      }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "owner": "faiziop05"
   }
 }
